@@ -1,1 +1,4 @@
 case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+CAL-01,img_001,loi_may,"YOLO26 gán xe bán tải là truck trong khi taxonomy xếp bán tải vào car","Đổi lớp về car; khi gặp xe bán tải ưu tiên định nghĩa car trong taxonomy","Mục 2: phân biệt car và truck; pickup thuộc car",v1.1
+CAL-02,img_006,bay_lot,"Bẫy box lỏng không được phát hiện trong lần review đầu","Không accept chỉ dựa vào lớp/confidence; so cạnh box với biên vật trước khi giữ","Mục 4.1.1: kiểm tra box ôm sát vật",v1.1
+CAL-03,img_036,cau_hoi_mo,"Cụm xe hai bánh ở gần/dày đặc khó tách từng vật","Chỉ gán riêng vật nhìn thấy rõ và cao từ 20 px; dùng ignore_region cho cụm không thể tách đáng tin cậy; ca chưa chắc tick can_review","Mục 4.1.6 và 4.3: ngưỡng vật nhỏ và cụm dày",v1.1

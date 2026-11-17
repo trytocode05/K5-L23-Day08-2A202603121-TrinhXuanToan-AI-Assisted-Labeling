@@ -1,0 +1,6 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,,khong,Trinh Xuan Toan,"Học viên kiểm tra: không ghi nhận lỗi"
+img_006.jpg,,bo_sot,Trinh Xuan Toan,"Học viên ghi nhận có đối tượng bị bỏ sót; cần sửa nhãn trong CVAT"
+img_014.jpg,,khong,Trinh Xuan Toan,"Học viên kiểm tra: không ghi nhận lỗi"
+img_031.jpg,,khong,Trinh Xuan Toan,"Học viên kiểm tra: không ghi nhận lỗi"
+img_035.jpg,,sai_lop,Trinh Xuan Toan,"Học viên ghi nhận có nhãn sai lớp; cần sửa lớp đúng trong CVAT"
